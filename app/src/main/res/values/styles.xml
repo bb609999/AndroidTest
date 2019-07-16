@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="InputError" parent="TextAppearance.Design.Error"/>
+    <style name="InputError.Purple">
+        <item name="android:textColor">@android:color/holo_purple</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#f44336</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">#575756</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorAccent">#575756</item>
+        <item name="colorControlNormal">#575756</item>
+        <item name="colorControlActivated">#575756</item>
+    </style>
+
+</resources>
